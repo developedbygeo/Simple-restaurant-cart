@@ -1,5 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Playball&family=Roboto:wght@500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
 body {
   margin: 0;
+  height: 100vh;
+  width: 100vw;
+  background: #383838;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +24,66 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  font-size: 3.2rem;
+}
+h2 {
+  font-size: 2.4rem;
+}
+h3 {
+  font-size: 2rem;
+}
+p,
+button,
+div,
+li {
+  font-size: 1.8rem;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media only screen and (max-width: 280px) {
+  html {
+    font-size: 30%;
+  }
+}
+
+@media only screen and (min-width: 319px) {
+  html {
+    font-size: 45%;
+  }
+}
+@media only screen and (min-width: 320px) and (orientation: landscape) {
+  html {
+    font-size: 28%;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 560px) {
+  html {
+    font-size: 45%;
+  }
+}
+@media only screen and (min-width: 561px) and (max-width: 800px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  html {
+    font-size: 62.5%;
+  }
 }
