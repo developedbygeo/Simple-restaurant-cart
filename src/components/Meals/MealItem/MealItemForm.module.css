@@ -1,0 +1,39 @@
+.form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+}
+
+.form label {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.45rem;
+}
+
+.form button {
+  font: inherit;
+  cursor: pointer;
+  background-color: #8a2b06;
+  border: 1px solid #8a2b06;
+  color: white;
+  padding: 0.25rem 2rem;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.form button:hover,
+.form button:active {
+  background-color: #641e03;
+  border-color: #641e03;
+}
+
+.error {
+  font-size: 1.3rem;
+  color: #641e03;
+  position: absolute;
+  bottom: -30%;
+  right: -61%;
+  width: 250%;
+}
