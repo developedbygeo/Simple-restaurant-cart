@@ -1,0 +1,84 @@
+.ctrlForm {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 0.6fr 0.2fr;
+  align-items: center;
+  justify-items: center;
+  margin: 1rem 0;
+  height: 35rem;
+  width: 95%;
+  overflow: auto;
+  margin: auto;
+}
+.ctrl {
+  display: grid;
+  justify-self: flex-start;
+  grid-template-rows: repeat(3, 1fr);
+  height: 100%;
+  width: 90%;
+  margin: auto;
+}
+.ctrl label {
+  font-weight: bold;
+  margin-bottom: 0.29rem;
+  display: block;
+}
+.ctrl input {
+  font-size: 1.6rem;
+  border: 1px solid rgb(172, 170, 170);
+  border-radius: 0.5rem;
+  width: 30rem;
+  max-width: 100%;
+  padding: 0.75rem 1rem;
+  /* margin-left: 1rem; */
+  width: 100%;
+  outline: none;
+}
+.ctrl input:focus {
+  outline: 2px solid #5a1a01;
+}
+
+.ctrlActions {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+  grid-area: 3/1/3/3;
+  height: 50%;
+  width: 100%;
+}
+.ctrlActions button {
+  font: inherit;
+  color: #5a1a01;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.55rem 2.1rem;
+  transition: all 100ms ease-in-out;
+}
+
+.ctrlActions button:hover,
+.ctrlActions button:active {
+  background-color: #ffe6dc;
+}
+
+.ctrlActions .submit {
+  border: 1px solid #5a1a01;
+  background-color: #5a1a01;
+  color: white;
+}
+.ctrlActions .submit:hover,
+.ctrlActions .submit:active {
+  background-color: #7a2706;
+}
+.invalid label {
+  color: #ce3e51;
+}
+.invalid input {
+  border-color: #aa0b20;
+  background-color: #ffeff1;
+}
+.invalid p {
+  margin-block: 1rem;
+  font-size: 1.6rem;
+}
