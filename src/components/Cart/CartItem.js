@@ -13,8 +13,8 @@ const CartItem = ({ name, price, amount, onAdd, onRemove }) => {
         </div>
       </div>
       <div className={styles.actions}>
-        <button onClick={onRemove}>−</button>
         <button onClick={onAdd}>+</button>
+        <button onClick={onRemove}>−</button>
       </div>
     </li>
   );
