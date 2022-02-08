@@ -54,15 +54,15 @@ a {
   color: inherit;
 }
 
-@media only screen and (max-width: 280px) {
+@media only screen and (max-width: 319px) {
   html {
-    font-size: 30%;
+    font-size: 40%;
   }
 }
 
 @media only screen and (min-width: 319px) {
   html {
-    font-size: 45%;
+    font-size: 47.5%;
   }
 }
 @media only screen and (min-width: 320px) and (orientation: landscape) {
@@ -85,5 +85,46 @@ a {
 @media only screen and (min-width: 1024px) {
   html {
     font-size: 62.5%;
+  }
+}
+@media only screen and (min-width: 568px) and (max-width: 700px) and (orientation: landscape) {
+  html {
+    font-size: 40%;
+  }
+  body {
+    overflow: hidden;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1024px) and (orientation: landscape) {
+  html {
+    font-size: 45%;
+  }
+  body {
+    overflow: hidden;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 950px) and (orientation: portrait) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+
+@media only screen and (min-width: 2048px) {
+  html {
+    font-size: 75.5%;
+  }
+}
+
+@media only screen and (min-width: 3500px) {
+  html {
+    font-size: 90%;
   }
 }
