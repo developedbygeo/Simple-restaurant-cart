@@ -4,12 +4,12 @@ import MealItemForm from './MealItemForm';
 import styles from './MealItem.module.css';
 
 const MealItem = ({ price, name, description, id }) => {
-  const ctx = useContext(CartContext);
+  const { addItem } = useContext(CartContext);
 
   const parsedPrice = `${price.toFixed(2)}`;
 
   const addToCartHandler = (amount) => {
-    ctx.addItem({
+    addItem({
       id: id,
       name: name,
       amount: amount,
