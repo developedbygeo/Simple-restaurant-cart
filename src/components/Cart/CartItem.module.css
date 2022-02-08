@@ -18,6 +18,7 @@
 
 .summary {
   width: 45%;
+  max-width: 15rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -41,12 +42,6 @@
   flex-direction: column;
 }
 
-@media (min-width: 768px) {
-  .actions {
-    flex-direction: row;
-  }
-}
-
 .cart-item button {
   font: inherit;
   font-weight: bold;
@@ -66,4 +61,30 @@
 .cart-item button:active {
   background-color: #8a2b06;
   color: white;
+}
+
+@media only screen and (max-width: 318px) {
+  .qtInfo {
+    width: 60%;
+  }
+  .actions {
+    flex-direction: row;
+    margin-right: 1rem;
+  }
+}
+
+@media only screen and (min-width: 319px) {
+  .qtInfo {
+    width: 60%;
+  }
+  .actions {
+    flex-direction: row;
+    margin-right: 1rem;
+  }
+}
+
+@media only screen and (min-width: 416px) {
+  .summary {
+    width: 38.5%;
+  }
 }
