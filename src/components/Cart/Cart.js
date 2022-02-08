@@ -101,26 +101,6 @@ const Cart = ({ onHideCart }) => {
       {!isSubmitting && didSubmit && didSubmitContent}
     </Modal>
   );
-
-  // return (
-  //   <Modal onHideCart={onHideCart}>
-  //     {cartItems}
-  //     <div className={styles.total}>
-  //       <span>Total Amount</span>
-  //       <span>{ttlAmount}</span>
-  //     </div>
-  //     <div className={styles.actions}>
-  //       <button onClick={onHideCart} className={styles.buttonAlt}>
-  //         Close
-  //       </button>
-  //       {itemsExist && (
-  //         <button onClick={placeOrderHandler} className={styles.button}>
-  //           Order
-  //         </button>
-  //       )}
-  //     </div>
-  //   </Modal>
-  // );
 };
 
 export default Cart;
