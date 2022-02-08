@@ -60,3 +60,20 @@
     transform: scale(1);
   }
 }
+@media only screen and (max-width: 318px) {
+  .button {
+    width: calc(40% + 2.2vw);
+  }
+  .badge {
+    margin-inline: 1rem;
+  }
+}
+
+@media only screen and (min-width: 319px) {
+  .button {
+    width: calc(40% + 1.75vw);
+  }
+  .badge {
+    margin-inline: 1rem;
+  }
+}
