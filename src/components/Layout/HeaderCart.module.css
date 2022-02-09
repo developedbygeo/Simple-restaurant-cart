@@ -72,6 +72,8 @@
 @media only screen and (min-width: 319px) {
   .button {
     width: calc(40% + 1.75vw);
+    max-width: 25rem;
+    max-height: 7rem;
   }
   .badge {
     margin-inline: 1rem;
