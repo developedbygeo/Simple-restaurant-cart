@@ -54,13 +54,30 @@ a {
   color: inherit;
 }
 
-@media only screen and (max-width: 319px) {
+@media only screen and (max-width: 250px) {
+  html {
+    font-size: 30%;
+  }
+}
+@media only screen and (min-width: 270px) {
+  html {
+    font-size: 35%;
+  }
+}
+
+@media only screen and (min-width: 290px) {
+  html {
+    font-size: 37.5%;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 320px) {
   html {
     font-size: 40%;
   }
 }
 
-@media only screen and (min-width: 319px) {
+@media only screen and (min-width: 321px) {
   html {
     font-size: 47.5%;
   }
