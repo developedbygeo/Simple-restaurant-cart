@@ -14,6 +14,11 @@
   padding: 1rem;
   box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.25);
 }
+@media only screen and (min-width: 320px) and (orientation: landscape) {
+  .summary {
+    margin-top: -13rem;
+  }
+}
 
 .summary h2 {
   font-family: 'Lato', sans-serif;
