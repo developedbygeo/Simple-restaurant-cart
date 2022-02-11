@@ -14,6 +14,11 @@
   font-size: 2rem;
   margin-block: 2rem;
 }
+@media only screen and (min-width: 320px) and (orientation: landscape) {
+  .total {
+    margin-block: 1rem;
+  }
+}
 
 .actions {
   text-align: right;
