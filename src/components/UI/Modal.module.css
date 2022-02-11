@@ -32,6 +32,12 @@
     left: calc(50% - 40rem);
   }
 }
+@media only screen and (min-width: 320px) and (orientation: landscape) {
+  .modal {
+    top: 0%;
+    max-height: 100vh;
+  }
+}
 
 @keyframes slide-down {
   from {
