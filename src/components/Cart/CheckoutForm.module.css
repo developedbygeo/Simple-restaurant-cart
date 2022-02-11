@@ -15,6 +15,17 @@
     height: 25rem;
   }
 }
+@media only screen and (min-width: 320px) {
+  .ctrlForm {
+    max-height: 40vh;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .ctrlForm {
+    height: 35vh;
+  }
+}
+
 .ctrl {
   display: grid;
   justify-self: flex-start;
@@ -57,6 +68,12 @@
   min-height: 5rem;
   width: 100%;
 }
+@media only screen and (min-height: 800px) {
+  .ctrlActions {
+    height: 35%;
+  }
+}
+
 .ctrlActions button {
   font: inherit;
   color: #5a1a01;
