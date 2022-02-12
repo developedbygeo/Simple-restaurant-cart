@@ -19,6 +19,11 @@
     margin-top: -13rem;
   }
 }
+@media only screen and (min-width: 1200px) {
+  .summary {
+    margin-top: -15rem;
+  }
+}
 
 .summary h2 {
   font-family: 'Lato', sans-serif;
