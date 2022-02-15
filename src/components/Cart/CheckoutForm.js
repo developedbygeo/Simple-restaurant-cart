@@ -37,10 +37,7 @@ const CheckoutForm = ({ onCancel, onOrder }) => {
     });
 
     const formIsValid =
-      providedNameIsValid &&
-      providedAddressIsValid &&
-      providedCityIsValid &&
-      providedPostalIsValid;
+      providedNameIsValid && providedAddressIsValid && providedCityIsValid && providedPostalIsValid;
 
     if (!formIsValid) {
       return;
@@ -58,7 +55,7 @@ const CheckoutForm = ({ onCancel, onOrder }) => {
   };
 
   return (
-    <form className={styles.ctrlForm} onSubmit={submitHandler}>
+    <form autocomplete="off" className={styles.ctrlForm} onSubmit={submitHandler}>
       <div className={fieldControlClasses('name')}>
         <label htmlFor="name">Full name</label>
         <input type="text" id="name" ref={nameInputRef}></input>
@@ -72,9 +69,7 @@ const CheckoutForm = ({ onCancel, onOrder }) => {
       <div className={fieldControlClasses('postal')}>
         <label htmlFor="postalcode">Postal Code</label>
         <input type="text" id="postalcode" ref={postalInputRef}></input>
-        {!formValidity.postal && (
-          <p>Please provide your 5-character postal code.</p>
-        )}
+        {!formValidity.postal && <p>Please provide your 5-character postal code.</p>}
       </div>
       <div className={fieldControlClasses('city')}>
         <label htmlFor="city">City</label>
