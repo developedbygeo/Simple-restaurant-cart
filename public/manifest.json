@@ -1,6 +1,6 @@
 {
   "short_name": "Di Giorgio Restaurant",
-  "name": "A simple cart project based around http requests",
+  "name": "A simple cart project based on the Context API",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "#8a2b06",
   "background_color": "#ffffff"
 }
