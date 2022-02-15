@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Simple-restaurant-cart/static/css/main.6a4bd6b9.css",
-    "main.js": "/Simple-restaurant-cart/static/js/main.ed54b55c.js",
+    "main.js": "/Simple-restaurant-cart/static/js/main.de61cbd2.js",
     "static/media/meals.jpg": "/Simple-restaurant-cart/static/media/meals.cedb232f5832edb87140.jpg",
     "static/media/eating.svg": "/Simple-restaurant-cart/static/media/eating.e6397ee4f7056a588e2f6c2a5f8abff9.svg",
     "index.html": "/Simple-restaurant-cart/index.html",
     "main.6a4bd6b9.css.map": "/Simple-restaurant-cart/static/css/main.6a4bd6b9.css.map",
-    "main.ed54b55c.js.map": "/Simple-restaurant-cart/static/js/main.ed54b55c.js.map"
+    "main.de61cbd2.js.map": "/Simple-restaurant-cart/static/js/main.de61cbd2.js.map"
   },
   "entrypoints": [
     "static/css/main.6a4bd6b9.css",
-    "static/js/main.ed54b55c.js"
+    "static/js/main.de61cbd2.js"
   ]
 }
