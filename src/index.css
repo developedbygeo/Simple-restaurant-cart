@@ -127,6 +127,16 @@ a {
     font-size: 62.5%;
   }
 }
+@media only screen and (min-width: 1440px) {
+  html {
+    font-size: 65.5%;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  html {
+    font-size: 70.5%;
+  }
+}
 
 @media only screen and (min-width: 2048px) {
   html {
@@ -136,6 +146,6 @@ a {
 
 @media only screen and (min-width: 3500px) {
   html {
-    font-size: 90%;
+    font-size: 100%;
   }
 }
