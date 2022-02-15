@@ -18,7 +18,7 @@ const MEALS = [
   {
     id: 'm3',
     name: 'Chicken Tendies',
-    description: 'Fresh, tender, spicy, crunchy tendies.',
+    description: 'Fresh, tender, spicy, crunchy tenders.',
     price: 12.99,
   },
   {
