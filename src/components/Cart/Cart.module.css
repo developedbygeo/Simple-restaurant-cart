@@ -55,10 +55,12 @@
   grid-template-rows: 0.15fr 0.7fr 0.15fr;
   justify-items: center;
   align-items: center;
+  position: relative;
 }
 .submitWrapper .actions {
-  justify-self: flex-end;
-  align-self: flex-end;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 .imgCover {
   width: 100%;
